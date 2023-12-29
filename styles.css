@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #363434;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    max-width: 430px;
+    margin:30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#resultados {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(200, 37, 37, 0.1);
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background: #213343;
+    padding: 20px 90px; /* Ajusta el valor de la parte superior e inferior según sea necesario */
+    color: #FFFFFF;
+  }
+footer.example-3 {
+    font-family: Georgia, serif;
+    background-color: black;
+    padding: 1px
+  }
+  footer.example-3 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  footer.example-3 .main-content-area {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(230px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    grid-gap: 20px;
+  }
+  footer.example-3 .main-content-area .holder h3 {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  footer.example-3 .main-content-area .holder ul {
+    padding: 0;
+  }
+  footer.example-3 .main-content-area .holder ul li {
+    list-style: none;
+  }
+  footer.example-3 .main-content-area .holder ul li a {
+    font-size: .85rem;
+    font-weight: bold;
+    color: #b6c7d6;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0.3rem 0;
+    display: inline-block;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+  }
+  footer.example-3 .main-content-area .holder ul li a:hover {
+    text-decoration: underline;
+    color: #95ECEC;
+  }
+  footer.example-3 .social-media-links {
+    position: relative;
+    margin-top: 35px;
+  }
+  footer.example-3 .social-media-links ul {
+    max-width: 60%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer.example-3 .social-media-links ul::before {
+    width: 50%;
+    position: absolute;
+    content: '';
+    border-top: 1px solid  #3498db;
+    top: 109%;
+    left: 0;
+  }
+  footer.example-3 .social-media-links ul::after {
+    width: 50%;
+    position: absolute;
+    content: '';
+    border-top: 1px solid  #3498db;
+    top: 109%;
+    right: 0;
+  }
+  footer.example-3 .social-media-links ul li {
+    list-style: none;
+  }
+  footer.example-3 .social-media-links ul li a img {
+    max-width: 20px;
+  }
+  @media (min-width: 768px) {
+    footer.example-3 .social-media-links ul li a img {
+      max-width: 30px;
+    }
+  }
+  footer.example-3 .copyright {
+    font-family: Verdana, sans-serif;
+    margin-top: 19px;
+    text-align: center;
+  }
+  footer.example-3 .copyright img {
+    max-width: 200px;
+  }
+  footer.example-3 .copyright p {
+    color: #b6c7d6;
+    font-weight: bold;
+    font-size: .9em;
+  }
+  footer.example-3 .copyright ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer.example-3 .copyright ul li {
+    list-style: none;
+  }
+  footer.example-3 .copyright ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+    margin-right: 20px;
+  }
+  footer.example-3 .copyright ul li a:hover {
+    color: #95ECEC;
+    text-decoration: none;
+  }

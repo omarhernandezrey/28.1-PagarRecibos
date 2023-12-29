@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Recibos</h1>
+    <h4>Ingrese los valores correspondientes a pagar de cada recibo</h4>
+    <!-- Formulario con inputs para cada recibo -->
+    <form>
+        <label for="agua">Agua:</label>
+        <input type="number" id="agua" placeholder="Ingrese el monto de agua"><br>
+
+        <label for="luz">Luz:</label>
+        <input type="number" id="luz" placeholder="Ingrese el monto de luz"><br>
+
+        <label for="internet">Internet:</label>
+        <input type="number" id="internet" placeholder="Ingrese el monto de internet"><br>
+
+        <label for="gas">Gas:</label>
+        <input type="number" id="gas" placeholder="Ingrese el monto de gas"><br>
+
+        <!-- Botón para calcular los recibos -->
+        <button type="button" onclick="calcularRecibos()">Calcular</button>
+    </form>
+
+    <!-- Div para mostrar los resultados -->
+    <div id="resultados"></div>
+    <footer class="example-3">
+
+        <div class="container social-media-links">
+          <ul>
+            <li><a href="https://www.facebook.com/omar.hernandezrey.5"><img src="./icons/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://www.instagram.com/omarhernandezrey/"><img src="./icons/instagram.png" alt="instagram"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCTZFAzSm3V3Mt3v1Xqv9Oxg"><img src="./icons/youtube.png" alt="youtube"></a></li>
+            <li><a href="https://twitter.com/home"><img src="./icons/twiter.png" alt="twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/omar-hernandez-a061a01a4/"><img src="./icons/linkedin.png" alt="linkedin"></a></li>
+            <li><a href="https://www.tiktok.com/@omarhernandezrey?lang=es"><img src="./icons/tik-tok.png" alt="tiktok"></a></li>
+          </ul>
+        </div><!-- .container social-media-links -->
+        <div class="copyright">
+          <p>Copyright © 2023 Omar Hernandez Rey</p>
+          <p>Desarrollador de Software.</p>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div><!-- .copyright -->
+      </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
